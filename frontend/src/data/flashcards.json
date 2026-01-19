@@ -1,0 +1,61 @@
+{
+  "easy": [
+    { "emoji": "🍎", "label": "Apple" },
+    { "emoji": "🍎", "label": "Apple" },
+
+    { "emoji": "🍌", "label": "Banana" },
+    { "emoji": "🍌", "label": "Banana" },
+
+    { "emoji": "🍊", "label": "Orange" },
+    { "emoji": "🍊", "label": "Orange" }
+  ],
+
+  "medium": [
+    { "emoji": "🍎", "label": "Apple" },
+    { "emoji": "🍎", "label": "Apple" },
+
+    { "emoji": "🍌", "label": "Banana" },
+    { "emoji": "🍌", "label": "Banana" },
+
+    { "emoji": "🍊", "label": "Orange" },
+    { "emoji": "🍊", "label": "Orange" },
+
+    { "emoji": "🍇", "label": "Grapes" },
+    { "emoji": "🍇", "label": "Grapes" }
+  ],
+
+  "hard": [
+    { "emoji": "🍎", "label": "Apple" },
+    { "emoji": "🍎", "label": "Apple" },
+
+    { "emoji": "🍌", "label": "Banana" },
+    { "emoji": "🍌", "label": "Banana" },
+
+    { "emoji": "🍊", "label": "Orange" },
+    { "emoji": "🍊", "label": "Orange" },
+
+    { "emoji": "🍇", "label": "Grapes" },
+    { "emoji": "🍇", "label": "Grapes" },
+
+    { "emoji": "🥭", "label": "Mango" },
+    { "emoji": "🥭", "label": "Mango" },
+
+    { "emoji": "🍍", "label": "Pineapple" },
+    { "emoji": "🍍", "label": "Pineapple" },
+
+    { "emoji": "🍓", "label": "Strawberry" },
+    { "emoji": "🍓", "label": "Strawberry" },
+
+    { "emoji": "🍉", "label": "Watermelon" },
+    { "emoji": "🍉", "label": "Watermelon" },
+
+    { "emoji": "🥝", "label": "Kiwi" },
+    { "emoji": "🥝", "label": "Kiwi" },
+
+    { "emoji": "🍒", "label": "Cherry" },
+    { "emoji": "🍒", "label": "Cherry" },
+
+    { "emoji": "🍑", "label": "Peach" },
+    { "emoji": "🍑", "label": "Peach" }
+  ]
+}

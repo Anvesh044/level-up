@@ -1,0 +1,146 @@
+{
+  "game": {
+    "title": "Balloon Boost – Speak to Rise",
+    "description": "Type related words to lift the balloon. Wrong words make it fall."
+  },
+
+  "topics": [
+    {
+      "name": "Arrays",
+      "keywords": [
+        "index",
+        "element",
+        "loop",
+        "traversal",
+        "contiguous",
+        "size",
+        "length",
+        "iteration",
+        "position",
+        "access",
+        "fixed",
+        "dynamic",
+        "memory",
+        "address",
+        "order",
+        "collection",
+        "store",
+        "retrieve",
+        "bounds",
+        "initialize"
+      ],
+      "hint": "Think about indexed collections in memory."
+    },
+    {
+      "name": "Operating System",
+      "keywords": [
+        "process",
+        "thread",
+        "memory",
+        "scheduler",
+        "cpu",
+        "kernel",
+        "multitasking",
+        "deadlock",
+        "semaphore",
+        "virtual",
+        "paging",
+        "context",
+        "switch",
+        "resource",
+        "allocation",
+        "interrupt",
+        "system call",
+        "boot",
+        "cache",
+        "storage"
+      ],
+      "hint": "Think about how a computer manages tasks."
+    },
+    {
+      "name": "Data Structures",
+      "keywords":[
+        "stack",
+        "queue",
+        "linked",
+        "tree",
+        "graph",
+        "node",
+        "edge",
+        "heap",
+        "hash",
+        "map",
+        "set",
+        "list",
+        "array",
+        "priority",
+        "binary",
+        "search",
+        "insert",
+        "delete",
+        "traversal",
+        "structure"
+      ],
+      "hint": "Think about how data is organized."
+    },
+    {
+      "name": "Computer Networks",
+      "keywords": [
+        "ip",
+        "packet",
+        "router",
+        "protocol",
+        "tcp",
+        "udp",
+        "http",
+        "https",
+        "dns",
+        "port",
+        "latency",
+        "bandwidth",
+        "switch",
+        "firewall",
+        "network",
+        "topology",
+        "ethernet",
+        "wifi",
+        "server",
+        "client"
+      ],
+      "hint": "Think about how computers communicate."
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "table",
+        "query",
+        "sql",
+        "index",
+        "schema",
+        "row",
+        "column",
+        "primary key",
+        "foreign key",
+        "join",
+        "transaction",
+        "commit",
+        "rollback",
+        "normalization",
+        "constraint",
+        "view",
+        "trigger",
+        "procedure",
+        "database",
+        "record"
+      ],
+      "hint": "Think about storing and retrieving data."
+    }
+  ],
+
+  "rules": {
+    "correctBoost": 10,
+    "wrongDrop": 15,
+    "winHeight": 95,
+    "failHeight": 5
+  }
+}

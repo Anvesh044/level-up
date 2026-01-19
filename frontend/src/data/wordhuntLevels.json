@@ -1,0 +1,14 @@
+{
+  "easy": {
+    "size": 4,
+    "words": ["CODE", "NODE", "JS"]
+  },
+  "medium": {
+    "size": 8,
+    "words": ["REACT", "JAVASCRIPT", "FRONTEND"]
+  },
+  "hard": {
+    "size": 16,
+    "words": ["ALGORITHM", "ASYNCHRONOUS", "OPTIMIZATION", "ARCHITECTURE"]
+  }
+}

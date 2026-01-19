@@ -1,0 +1,121 @@
+/* 🐥 MAIN CONTAINER */
+.pica-container {
+  position: fixed;
+  top: 50px;          /* slightly lower */
+  right: 240px;        /* moved LEFT into empty space */
+  z-index:5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+  pointer-events: auto;
+}
+
+/* 🐥 PICA IMAGE */
+.pica-gif {
+  width: 90px;
+  background: transparent;
+  border-radius: 50%;
+  display: block;
+  pointer-events: auto;
+  will-change: transform;
+}
+
+/* 💬 SPEECH BUBBLE */
+.pica-bubble {
+  background: #1f2933;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 14px;
+  max-width: 220px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* 🔊 VOICE BUTTON */
+.pica-voice-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+/* ========================= */
+/* 🎉 WAVE (LOGIN INTRO) */
+/* ========================= */
+.wave .pica-gif {
+  animation: wave 1.2s ease-in-out;
+}
+
+@keyframes wave {
+  0%   { transform: rotate(0deg); }
+  20%  { transform: rotate(12deg); }
+  40%  { transform: rotate(-12deg); }
+  60%  { transform: rotate(10deg); }
+  80%  { transform: rotate(-6deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* ========================= */
+/* 😊 HAPPY (DASHBOARD / NORMAL) */
+/* ========================= */
+.happy .pica-gif {
+  animation: bounce 1.6s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-6px); }
+}
+
+/* ========================= */
+/* 🤔 THINKING (QUIZ / AI) */
+/* ========================= */
+.thinking .pica-gif {
+  animation: think 1.8s ease-in-out infinite;
+}
+
+@keyframes think {
+  0%   { transform: rotate(0deg); }
+  50%  { transform: rotate(6deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* ========================= */
+/* 🚀 EXCITED (GAMES) */
+/* ========================= */
+.excited .pica-gif {
+  animation: excited 0.9s ease-in-out infinite;
+}
+
+@keyframes excited {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+/* ========================= */
+/* ✨ FADE-IN FOR BUBBLE */
+/* ========================= */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 📱 MOBILE SAFETY */
+@media (max-width: 768px) {
+  .pica-container {
+    right: 20px;
+    top: 80px;
+  }
+}

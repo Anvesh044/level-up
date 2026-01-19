@@ -1,0 +1,119 @@
+{
+  "easy": {
+    "time": 30,
+    "questions": [
+      {
+        "q": "  What is the index of the first element in an array? ",
+        "options": ["0", "1", "-1", "Depends"],
+        "ans": "0"
+      },
+      {
+        "q": " Which data structure follows FIFO? ",
+        "options": ["Stack", "Queue", "Tree", "Graph"],
+        "ans": "Queue"
+      },
+      {
+        "q": " Which loop executes at least once?",
+        "options": ["for", "while", "do-while", "foreach"],
+        "ans": "do-while"
+      },
+      {
+        "q": " What does RAM stand for?",
+        "options": ["Read Access Memory", "Random Access Memory", "Run Access Memory", "Rapid Access Memory"],
+        "ans": "Random Access Memory"
+      },
+      {
+        "q": " Which operator assigns a value?",
+        "options": ["==", "=", "!=", "<="],
+        "ans": "="
+      },
+      {
+        "q": " Which data type stores true or false?",
+        "options": ["int", "char", "bool", "float"],
+        "ans": "bool"
+      },
+      {
+        "q": " What is the output of 2 + 2?",
+        "options": ["3", "4", "22", "Error"],
+        "ans": "4"
+      },
+      {
+        "q": " Which symbol starts a comment in C++?",
+        "options": ["#", "//", "/*", "<!--"],
+        "ans": "//"
+      },
+      {
+        "q": " Which memory is volatile?",
+        "options": ["ROM", "HDD", "SSD", "RAM"],
+        "ans": "RAM"
+      },
+      {
+        "q": " Which language is used for web styling?",
+        "options": ["HTML", "CSS", "JS", "C"],
+        "ans": "CSS"
+      }
+    ]
+  },
+
+  "medium": {
+    "time": 20,
+    "questions": [
+      {
+        "q": " What is time complexity of binary search?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+        "ans": "O(log n)"
+      },
+      {
+        "q": " Which data structure uses recursion?",
+        "options": ["Queue", "Stack", "Array", "Graph"],
+        "ans": "Stack"
+      },
+      {
+        "q": " What is a pointer?",
+        "options": ["Variable", "Function", "Address holder", "Constant"],
+        "ans": "Address holder"
+      },
+      {
+        "q": " Which sorting is fastest on average?",
+        "options": ["Bubble", "Insertion", "Quick", "Selection"],
+        "ans": "Quick"
+      },
+      {
+        "q": " What does malloc return?",
+        "options": ["Value", "Pointer", "Index", "Size"],
+        "ans": "Pointer"
+      }
+    ]
+  },
+
+  "hard": {
+    "time": 10,
+    "questions": [
+      {
+        "q": " Worst case time complexity of quicksort?",
+        "options": ["O(n log n)", "O(log n)", "O(n)", "O(n²)"],
+        "ans": "O(n²)"
+      },
+      {
+        "q": " What is deadlock?",
+        "options": ["Infinite loop", "Memory leak", "Circular wait", "Crash"],
+        "ans": "Circular wait"
+      },
+      {
+        "q": " What is memoization?",
+        "options": ["Sorting", "Caching results", "Looping", "Indexing"],
+        "ans": "Caching results"
+      },
+      {
+        "q": " Which traversal uses queue?",
+        "options": ["DFS", "Inorder", "Postorder", "BFS"],
+        "ans": "BFS"
+      },
+      {
+        "q": " What is race condition?",
+        "options": ["Speed issue", "Thread conflict", "Deadlock", "Starvation"],
+        "ans": "Thread conflict"
+      }
+    ]
+  }
+}

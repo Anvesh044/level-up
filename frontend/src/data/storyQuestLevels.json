@@ -1,0 +1,70 @@
+{
+  "easy": {
+    "title": "Being Safe & Kind",
+    "steps": [
+      {
+        "text": "It is raining outside and you need to go to school.",
+        "image": "../images/rain1.png",
+        "positive": "Take an umbrella and go carefully.",
+        "negative": "Run outside without protection.",
+        "negativeFeedback": "Running in the rain without protection can make you sick. Being prepared keeps you healthy and safe.",
+        "lesson": "Always be prepared and take care of your health."
+      },
+      {
+        "text": "You see a classmate struggling with books.",
+        "image": "/images/helping.png",
+        "positive": "Help your classmate.",
+        "negative": "Ignore and walk away.",
+        "negativeFeedback": "Ignoring someone in need can make them feel sad. Helping others builds kindness and friendship.",
+        "lesson": "Helping others makes the world a better place."
+      }
+    ],
+    "ending": "You made safe and kind choices today!"
+  },
+
+  "medium": {
+    "title": "Doing the Right Thing",
+    "steps": [
+      {
+        "text": "You find a wallet in the playground.",
+        "image": "/images/wallet.png",
+        "positive": "Give it to a teacher.",
+        "negative": "Keep it with you.",
+        "negativeFeedback": "Keeping something that does not belong to you is dishonest. Returning it shows honesty and respect.",
+        "lesson": "Honesty is always the right choice."
+      },
+      {
+        "text": "Your friend asks you to copy homework.",
+        "image": "/images/homework.png",
+        "positive": "Say no and explain why.",
+        "negative": "Share your homework.",
+        "negativeFeedback": "Copying homework is unfair and stops real learning. Everyone should do their own work.",
+        "lesson": "Hard work and honesty help you learn better."
+      }
+    ],
+    "ending": "You chose honesty and responsibility!"
+  },
+
+  "hard": {
+    "title": "Self-Respect & Courage",
+    "steps": [
+      {
+        "text": "Someone makes fun of you in class.",
+        "image": "/images/respect.png",
+        "positive": "Stay calm and inform a teacher.",
+        "negative": "Shout back angrily.",
+        "negativeFeedback": "Shouting back can make the situation worse. Staying calm shows strength and self-respect.",
+        "lesson": "Respect yourself and handle problems calmly."
+      },
+      {
+        "text": "You made a mistake in a group project.",
+        "image": "/assets/mistake.png",
+        "positive": "Accept it and try to fix it.",
+        "negative": "Blame someone else.",
+        "negativeFeedback": "Blaming others avoids responsibility. Accepting mistakes helps you grow and learn.",
+        "lesson": "Taking responsibility is a sign of maturity."
+      }
+    ],
+    "ending": "You showed courage and self-respect!"
+  }
+}

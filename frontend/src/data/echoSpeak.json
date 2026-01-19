@@ -1,0 +1,25 @@
+{
+  "easy": [
+    "I love learning new things.",
+    "Practice makes a person perfect.",
+    "I enjoy playing educational games.",
+    "Speaking clearly builds confidence.",
+    "Learning is fun and exciting."
+  ],
+
+  "medium": [
+    "Programming helps improve logical thinking.",
+    "Data structures are important for problem solving.",
+    "Consistency is the key to success.",
+    "Speaking confidently improves communication skills.",
+    "Practice every day to become better."
+  ],
+
+  "hard": [
+    "Learning computer science improves problem solving and analytical skills.",
+    "Good communication and technical skills help in career growth.",
+    "Practicing programming daily builds confidence and clarity.",
+    "Understanding fundamentals makes advanced topics easier.",
+    "Self discipline and consistency lead to long term success."
+  ]
+}

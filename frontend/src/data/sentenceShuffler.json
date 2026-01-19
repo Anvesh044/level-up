@@ -1,0 +1,82 @@
+{
+  "easy": {
+    "readTime": 5000,
+    "questions": [
+      [
+        "An array stores multiple values in a single variable.",
+        "Array elements are accessed using index numbers.",
+        "Arrays are stored in contiguous memory locations.",
+        "They allow fast access to data.",
+        "Arrays are widely used in programming."
+      ],
+      [
+        "Functions divide programs into smaller parts.",
+        "Each function performs a specific task.",
+        "Functions improve code readability.",
+        "They reduce code repetition.",
+        "Functions make debugging easier."
+      ],
+      [
+        "Arrays can be passed to functions.",
+        "Functions can return arrays.",
+        "This helps in modular programming.",
+        "Modular code is easy to maintain.",
+        "Arrays and functions work together efficiently."
+      ]
+    ]
+  },
+
+  "medium": {
+    "readTime": 7000,
+    "questions": [
+      [
+        "Pointers store memory addresses of variables.",
+        "They allow dynamic memory allocation.",
+        "Pointers improve memory efficiency.",
+        "They are powerful but risky.",
+        "Proper use of pointers is important."
+      ],
+      [
+        "Structures group related variables together.",
+        "They allow creation of complex data types.",
+        "Each structure member has a name.",
+        "Structures improve data organization.",
+        "They are commonly used in programs."
+      ],
+      [
+        "Pointers can point to structures.",
+        "This allows efficient data access.",
+        "Structure pointers use arrow operator.",
+        "They save memory space.",
+        "Pointers with structures improve performance."
+      ]
+    ]
+  },
+
+  "hard": {
+    "readTime": 8000,
+    "questions": [
+      [
+        "Data structures organize data efficiently.",
+        "Choosing the right structure is important.",
+        "Efficient structures improve performance.",
+        "They reduce time complexity.",
+        "Data structures solve complex problems."
+      ],
+      [
+        "Time complexity measures algorithm efficiency.",
+        "Big O notation is commonly used.",
+        "Lower complexity means faster execution.",
+        "It helps compare algorithms.",
+        "Efficient algorithms save resources."
+      ],
+      [
+        "Recursion solves problems by repetition.",
+        "Each recursive call reduces problem size.",
+        "Base condition stops recursion.",
+        "Stacks manage recursive calls.",
+        "Recursion simplifies complex logic."
+      ]
+    ]
+  }
+}

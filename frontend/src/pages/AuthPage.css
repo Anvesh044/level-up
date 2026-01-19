@@ -1,0 +1,104 @@
+/* BACKGROUND */
+.auth-container {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #4b1378, #120018);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, sans-serif;
+}
+
+/* GLASS CARD */
+.auth-card {
+  width: 380px;
+  padding: 42px 36px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  color: white;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+}
+
+/* TITLE */
+.auth-title {
+  font-size: 32px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* SUBTITLE */
+.auth-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
+
+/* TAGLINE */
+.auth-tagline {
+  font-size: 14px;
+  opacity: 0.75;
+  margin-bottom: 30px;
+}
+
+/* BUTTON GROUP */
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* COMMON BUTTON */
+.auth-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 16px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.auth-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* PRIMARY */
+.auth-btn.primary {
+  background: linear-gradient(90deg, #c084fc, #8b5cf6);
+  color: white;
+  box-shadow: 0 12px 30px rgba(168, 85, 247, 0.6);
+}
+
+/* SECONDARY */
+.auth-btn.secondary {
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+  color: white;
+  box-shadow: 0 12px 30px rgba(34, 197, 94, 0.45);
+}
+
+/* LINK BUTTON */
+.auth-btn.link {
+  background: transparent;
+  color: #c084fc;
+  font-size: 13px;
+  font-weight: 500;
+  box-shadow: none;
+}
+.language-switcher {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.language-switcher select {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}

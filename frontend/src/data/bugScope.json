@@ -1,0 +1,55 @@
+{
+  "easy": [
+    {
+      "code": "int a = 10\nprintf(\"%d\", a)",
+      "bug": "Missing semicolon",
+      "hint": "Check line endings carefully."
+    },
+    {
+      "code": "for(int i=0 i<5; i++) {\n  printf(\"%d\", i);\n}",
+      "bug": "Missing semicolon in for loop",
+      "hint": "Look closely at the loop conditions."
+    },
+    {
+      "code": "if(a = 5) {\n  printf(\"Hello\");\n}",
+      "bug": "Assignment instead of comparison",
+      "hint": "Is this checking or assigning?"
+    }
+  ],
+
+  "medium": [
+    {
+      "code": "int arr[5];\narr[5] = 10;",
+      "bug": "Array index out of bounds",
+      "hint": "Think about array size vs index."
+    },
+    {
+      "code": "int sum;\nfor(int i=0;i<5;i++){\n sum += i;\n}",
+      "bug": "Variable not initialized",
+      "hint": "What is the starting value?"
+    },
+    {
+      "code": "int x = 10;\nif(x > 10) {\n printf(\"Big\");\n} else {\n printf(\"Big\");\n}",
+      "bug": "Same output in both conditions",
+      "hint": "Do both branches make sense?"
+    }
+  ],
+
+  "hard": [
+    {
+      "code": "int *p;\n*p = 10;",
+      "bug": "Pointer not initialized",
+      "hint": "Where does this pointer point to?"
+    },
+    {
+      "code": "void func(){\n int x = 5;\n}\nprintf(\"%d\", x);",
+      "bug": "Scope issue",
+      "hint": "Where is the variable declared?"
+    },
+    {
+      "code": "int a = 5;\nfree(&a);",
+      "bug": "Freeing non-heap memory",
+      "hint": "Was memory allocated dynamically?"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "game": {
+    "title": "CodeTrail – The CSE Treasure Hunt",
+    "description": "Solve programming clues, avoid dead ends, and uncover the final secret."
+  },
+
+  "stages": [
+    {
+      "id": 1,
+      "type": "basics",
+      "clue": "I store multiple values of the same type under one name.",
+      "question": "What am I?",
+      "options": ["Array", "Pointer", "Function", "Structure"],
+      "answer": "Array",
+      "deadEndMessage": "Think about a collection accessed using index values.",
+      "xp": 5
+    },
+
+    {
+      "id": 2,
+      "type": "logic",
+      "clue": "I follow the rule: Last In, First Out.",
+      "question": "Which data structure am I?",
+      "options": ["Queue", "Stack", "Array", "Tree"],
+      "answer": "Stack",
+      "deadEndMessage": "This structure removes the most recent element first.",
+      "xp": 5
+    },
+
+    {
+      "id": 3,
+      "type": "programming",
+      "clue": "I hold the memory address of another variable.",
+      "question": "Identify me.",
+      "options": ["Variable", "Pointer", "Reference", "Array"],
+      "answer": "Pointer",
+      "deadEndMessage": "I don’t store data directly, but where the data lives.",
+      "xp": 5
+    },
+
+    {
+      "id": 4,
+      "type": "algorithm",
+      "clue": "I repeatedly divide the problem into halves to search efficiently.",
+      "question": "Which algorithm is this?",
+      "options": ["Linear Search", "Binary Search", "Bubble Sort", "DFS"],
+      "answer": "Binary Search",
+      "deadEndMessage": "This algorithm works only on sorted data.",
+      "xp": 5
+    },
+
+    {
+      "id": 5,
+      "type": "complexity",
+      "clue": "I describe how fast an algorithm grows as input increases.",
+      "question": "What concept am I?",
+      "options": ["Recursion", "Big O Notation", "Compilation", "Debugging"],
+      "answer": "Big O Notation",
+      "deadEndMessage": "I measure efficiency, not correctness.",
+      "xp": 10
+    },
+
+    {
+      "id": 6,
+      "type": "os",
+      "clue": "Multiple processes wait forever because each holds a resource.",
+      "question": "What is this situation called?",
+      "options": ["Starvation", "Deadlock", "Race Condition", "Thrashing"],
+      "answer": "Deadlock",
+      "deadEndMessage": "This occurs due to circular waiting.",
+      "xp": 10
+    },
+
+    {
+      "id": 7,
+      "type": "final",
+      "clue": "I am the core skill that allows you to solve any programming problem.",
+      "question": "What is the ultimate treasure?",
+      "options": [
+        "Programming Language",
+        "Debugging",
+        "Problem Solving",
+        "Syntax"
+      ],
+      "answer": "Problem Solving",
+      "deadEndMessage": "Languages change, but this skill remains forever.",
+      "xp": 20
+    }
+  ],
+
+  "finalReward": {
+    "emoji": "🧠💻",
+    "message": "You cracked the CodeTrail!",
+    "subMessage": "The real treasure is your problem-solving mindset.",
+    "totalXp": 60
+  }
+}

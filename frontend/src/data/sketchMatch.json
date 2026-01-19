@@ -1,0 +1,29 @@
+{
+  "easy": [
+    { "label": "Apple", "emoji": "🍎" },
+    { "label": "Car", "emoji": "🚗" },
+    { "label": "Sun", "emoji": "☀️" },
+    { "label": "Tree", "emoji": "🌳" }
+  ],
+  "medium": [
+    { "label": "Apple", "emoji": "🍎" },
+    { "label": "Car", "emoji": "🚗" },
+    { "label": "Mountain", "emoji": "🏔️" },
+    { "label": "Fish", "emoji": "🐟" },
+    { "label": "House", "emoji": "🏠" },
+    { "label": "Flower", "emoji": "🌸" },
+    { "label": "Sun", "emoji": "☀️" }
+  ],
+  "hard": [
+    { "label": "Apple", "emoji": "🍎" },
+    { "label": "Car", "emoji": "🚗" },
+    { "label": "Mountain", "emoji": "🏔️" },
+    { "label": "Fish", "emoji": "🐟" },
+    { "label": "House", "emoji": "🏠" },
+    { "label": "Flower", "emoji": "🌸" },
+    { "label": "Sun", "emoji": "☀️" },
+    { "label": "Boat", "emoji": "⛵" },
+    { "label": "Cat", "emoji": "🐱" },
+    { "label": "Bicycle", "emoji": "🚲" }
+  ]
+}

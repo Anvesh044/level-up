@@ -1,0 +1,37 @@
+{
+  "sections": [
+    {
+      "title": "Section A (10 Questions)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does HTML stand for?",
+          "options": ["Hyper Tool ML", "Hyper Text Markup Language", "High Text Machine Language", "None"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Section B (15 Questions)",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Which data structure uses FIFO?",
+          "options": ["Stack", "Queue", "Tree", "Graph"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Section C (25 Questions)",
+      "questions": [
+        {
+          "id": 26,
+          "question": "Time complexity of binary search?",
+          "options": ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}
